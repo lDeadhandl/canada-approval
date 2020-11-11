@@ -1,0 +1,34 @@
+.dropdown-button {
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  padding: 35px 0px;
+  flex-grow: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  flex-direction: row;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.dropdown-content .dropdown-button:hover {
+  color: #73ca5f;
+  transition: all 0.4s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
