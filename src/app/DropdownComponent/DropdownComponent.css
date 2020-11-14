@@ -1,12 +1,11 @@
 .dropdown-button {
-  padding: 16px;
-  font-size: 14px;
+  font-size: 13px;
   border: none;
 }
 
 .dropdown {
   position: relative;
-  padding: 35px 0px;
+  padding: 24px 0px;
   flex-grow: 1;
 }
 
